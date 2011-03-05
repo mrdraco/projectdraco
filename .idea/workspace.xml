@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe1cb66-cc18-4095-999b-98ded7872423" name="Default" comment="" />
+    <list default="true" id="dbe1cb66-cc18-4095-999b-98ded7872423" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\chris\projectdraco\.idea\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\chris\projectdraco\.idea\workspace.xml" afterPath="" />
+    </list>
     <ignored path="$USER_HOME$/.grails/" />
     <ignored path="$USER_HOME$/.griffon/" />
     <option name="TRACKING_ENABLED" value="true" />
