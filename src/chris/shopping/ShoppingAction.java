@@ -18,13 +18,12 @@ public class ShoppingAction {
         System.out.println("YOUR TOTAL PRICE £" + basket.getTotalPrice());
 
 
-//        ArrayList<Item> items = basket.items;
+        ArrayList<Item> items = basket.items;
+        for(int i=0; i<items.size();i++) {
+            System.out.println(items.get(i).productCode);
+            System.out.println(items.get(i).price);
 
-//        for(int i=0; i<items.size();i++) {
-//            System.out.println(items.get(i).productCode);
-//            System.out.println(items.get(i).price);
-//
-//        }
+        }
 
 
     }
