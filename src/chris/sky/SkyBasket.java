@@ -2,7 +2,7 @@ package chris.sky;
 
 public class SkyBasket {
     private BroadBandPackage broadbandpackage;
-    private  TvPackage tvpackage;
+    private TvPackage tvpackage;
 
     public void addBroadBandPackage(BroadBandPackage a){
         broadbandpackage = a;
