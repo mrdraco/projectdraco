@@ -12,6 +12,18 @@ public class CheckoutBasket {
 
     public void addItem(Item a) {
         items.add(a);
+    }
+
+
+    public int getTotalPrice() {
+        int totalPrice = 0;
+
+        for(int i=0;i<items.size();i++) {
+            int currentItemPrice = items.get(i).price;
+            totalPrice = totalPrice + currentItemPrice;
+        }
+
+        return  totalPrice;
 
     }
 }

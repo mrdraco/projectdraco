@@ -15,13 +15,16 @@ public class ShoppingAction {
         basket.addItem(cable);
         basket.addItem(disk);
 
+        System.out.println("YOUR TOTAL PRICE £" + basket.getTotalPrice());
 
-        ArrayList<Item> items = basket.items;
 
-        for(int i=0; i<items.size();i++) {
-            System.out.println(items.get(i).productCode);
+//        ArrayList<Item> items = basket.items;
 
-        }
+//        for(int i=0; i<items.size();i++) {
+//            System.out.println(items.get(i).productCode);
+//            System.out.println(items.get(i).price);
+//
+//        }
 
 
     }
